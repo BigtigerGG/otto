@@ -1,11 +1,11 @@
 # underscore
 --
-    import "github.com/robertkrimen/otto/underscore"
+    import "github.com/BigtigerGG/otto/underscore"
 
 Package underscore contains the source for the JavaScript utility-belt library.
 
     import (
-    	_ "github.com/robertkrimen/otto/underscore"
+    	_ "github.com/BigtigerGG/otto/underscore"
     )
     // Every Otto runtime will now include underscore
 
@@ -19,7 +19,7 @@ create a new Otto runtime.
 To prevent this behavior, you can do the following:
 
     import (
-    	"github.com/robertkrimen/otto/underscore"
+    	"github.com/BigtigerGG/otto/underscore"
     )
 
     func init() {
@@ -50,4 +50,4 @@ func Source() string
 Source returns the underscore source.
 
 --
-**godocdown** http://github.com/robertkrimen/godocdown
+**godocdown** http://github.com/BigtigerGG/godocdown
